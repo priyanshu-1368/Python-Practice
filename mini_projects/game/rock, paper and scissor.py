@@ -16,9 +16,10 @@ while True:
         print("You win!", user, "beats", bot, "You have", lives, "lives left.")
     elif (user not in choices):
         print("Invalid input. Please choose Rock, Paper, or Scissor, You have", lives, "lives left...")
-    elif lives == 0:
-            print("Game over! You have no lives left.")
-            break
     else:
         lives -= 1
-        print("You lose!", bot, "beats", user, "You have", lives, "lives left.") 
+        print("You lose!", bot, "beats", user, "You have", lives, "lives left.")
+
+    if lives == 0:
+        print("Game Over! You have no lives left.")
+        break
