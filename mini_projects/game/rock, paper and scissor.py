@@ -8,7 +8,7 @@ print("Scissor")
 
 while True:
     bot = choices[int(random.random()*3)]
-    user = input("Enter your choice: ")
+    user = input("Enter your choice: ").capitalize()
 
     if (user == bot):
         print("It's a tie!", user, "You have", lives, "lives left.")
