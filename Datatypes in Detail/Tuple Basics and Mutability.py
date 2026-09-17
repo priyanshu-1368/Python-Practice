@@ -3,10 +3,11 @@ numbers = (10, 20, 30, 40, 50)
 print("Third item:", numbers[2])
 
 # numbers[1] = 25
+
 # Explanation of Mutability:
-# If we run numbers[1] = 25,
-# Python will show a TypeError: 'tuple' object does not support item assignment.
-# Tuples are immutable.
-# While lists are mutable (can be changed after creation),
-# meaning once a tuple is created,
-# its elements cannot be modified, added, or removed.
+# If we try to set numbers[1] = 25
+# Python will display an error saying that a tuple object does not allow item assignment.
+# Tuples are not changeable.
+# On the hand lists are mutable meaning they can be changed after they are created.
+# This means that once a tuple is created
+# its elements cannot be changed, added or removed.
