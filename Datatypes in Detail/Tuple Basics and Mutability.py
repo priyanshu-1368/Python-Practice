@@ -10,4 +10,4 @@ print("Third item:", numbers[2])
 # Tuples are not changeable.
 # On the hand lists are mutable meaning they can be changed after they are created.
 # This means that once a tuple is created
-# its elements cannot be changed, added or removed.
+# its elements can't be changed, added or removed.

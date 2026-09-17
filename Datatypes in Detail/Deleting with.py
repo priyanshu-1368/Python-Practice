@@ -1,4 +1,3 @@
-# Define a sample list
 my_list = [10, 20, 30, 40, 50]
 print("Original list:", my_list)
 
