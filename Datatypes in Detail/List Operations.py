@@ -1,6 +1,5 @@
 fruits = ["Apple", "Banana", "Cherry", "Dragonfruit", "Kiwi"]
 
-
 print("Second fruit:", fruits[1])
 print("Last fruit:", fruits[-1])
 
