@@ -1,1 +1,0 @@
-total_sum_int += 1/(x**i)
