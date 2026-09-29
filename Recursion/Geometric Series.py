@@ -14,8 +14,8 @@ def geo_sum(x, n):
             print(f"1/{x} ^ {i} | added -> Current Sum = {total_sum}")
 
     total_sum_int = int(total_sum)
-
+    
     print(f"\nTotal Sum = {total_sum}")
     print(f"Total Sum in Int = {total_sum_int}\n")
 
-geo_sum(x, n)
+geo_sum(x, n)   
