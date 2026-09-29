@@ -10,9 +10,9 @@ else:
     for i in range(n + 1):
         total_sum += 1/(x**i)
         total_sum_int += 1/(x**i)
-        print(total_sum)
+        print(f"1/{x} ^ {i} | added -> Current Sum | {total_sum}")
 
         total_sum_int = int(total_sum)
 
-print(f"\n Total Sum = {total_sum}")
+print(f"\nTotal Sum = {total_sum}")
 print(f"Total Sum in Int = {total_sum_int}\n")
