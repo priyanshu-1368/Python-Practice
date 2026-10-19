@@ -1,6 +1,5 @@
 temperature = float(input("Enter the temperature in Celsius: "))
 
-
 if temperature <= 0:
     print("It's very cold weather.")
 elif temperature >= 0 and temperature < 10:
