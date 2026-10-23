@@ -7,7 +7,7 @@ print("Third item:", numbers[2])
 # Explanation of Mutability:
 # If we try to set numbers[1] = 25
 # Python will display an error saying that a tuple object does not allow item assignment.
-# Tuples are not changeable.
+# Tuples are immutable.
 # On the hand lists are mutable meaning they can be changed after they are created.
 # This means that once a tuple is created
 # its elements can't be changed, added or removed.
