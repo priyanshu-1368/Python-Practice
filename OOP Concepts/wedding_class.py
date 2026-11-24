@@ -12,7 +12,8 @@ class Wedding:
         print(f"Date : {self.wedding_date}")
         print(f"Location : {self.location}")
         print(f"Guests : {self.total_guests}")
-        print("-"*30)
+        print("-" * 30)
+
 
 wedding_1 = Wedding("Aarohi", "Dev", "18-12-2026", "Rajkot", 450)
 wedding_2 = Wedding("Nidhi", "Karan", "20-01-2027", "Ahmedabad", 300)
